@@ -2,7 +2,7 @@
 //Names: Store the names of a few of your friends in a array called names. 
 //Print each person’s name by accessing each element in the list, one at a time.
 
-let names = [
+let names: string[] = [
     "Alishbah",
     "Noor-ul-ain",
     "Maham",
@@ -31,7 +31,7 @@ names.forEach(function(msg){ // this will print statements to names one by one
 //and make a list that stores several examples. Use your list to print a series of statements 
 //about these items, such as “I would like to own a Honda motorcycle.”
 
-let transportation = [
+let transportation: string[] = [
     "Hyundai",
     "Honda",
     "Tesla",
@@ -50,7 +50,7 @@ transportation.forEach(function(examples){ // this will print statements one by 
 //to invite to dinner. Then use your list to print a message to each person, 
 //inviting them to dinner.
 
-let guestList = [
+let guestList: string[] = [
     "Shazia",
     "Rabiya",
     "Nimra"
@@ -148,7 +148,7 @@ console.log("Empty Guest List:" + guestList); // this will print the statements
 //Seeing the World: Think of at least five places in the world you’d like to visit.
 
 //Step 1: Store the locations in a array. Make sure the array is not in alphabetical order.
-let favCountries = [
+let favCountries: string[] = [
     "Japan",
     "Turkey",
     "Thailand",
@@ -204,7 +204,7 @@ console.log(`I am inviting ${guestList} people on the dinner!`); // this print a
 //For example, you could make a list of mountains, 
 //rivers, countries, cities, languages, or anything 
 //else you’d like. Write a program that creates a list containing these items.//
-let countriesList = [
+let countriesList: string[] = [
     "Thailand",
     "Turkey",
     "Japan"

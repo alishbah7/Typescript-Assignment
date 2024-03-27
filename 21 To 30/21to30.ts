@@ -15,7 +15,7 @@ console.log(`I'm ${info.Name} and I'm ${info.Age} years old!`); // this will pri
 //in one of your programs yet, try to make one happen. Change an 
 //index in one of your programs to produce an index error. 
 //Make sure you correct the error before closing the program.//
-let a = [
+let a: string[] = [
   "Alishbah", 
   "Noor-ul-ain"
 ]; // this array contains 2 elements
@@ -29,7 +29,7 @@ console.log("Correction:", a[1]); // this access the valid index
 //Conditional Tests: Write a series of conditional tests. 
 //Print a statement describing each test and your prediction 
 //for the results of each test. Your code should look something like this://
-let day = "Thursday"; // this contain the name of the day
+let day: string = "Thursday"; // this contain the name of the day
 
 // 1
 console.log("Is day == 'Thursday'? I predict True!");
@@ -110,7 +110,7 @@ console.log("Or Operator (True One):", day.length < 9 || day == "Thursday"); // 
 console.log("Or Operator (False One):", day.length < 7 || day == "thursday"); //False
 
 //Step 5: Test whether an item is in a array//
-let numbers = [10, 13, 19];
+let numbers: number[] = [10, 13, 19];
 console.log("Item in an array (True One):", numbers.includes(19)); // True
 console.log("Item in an array (False One):", numbers.includes(11)); // False
 
@@ -124,7 +124,7 @@ console.log("Item not in an array (False One):", !numbers.includes(19)); // Fals
 //Alien Colors #1: Imagine an alien was just shot down in a game. 
 //Create a variable called alien_color and assign it a value of 
 //'green', 'yellow', or 'red'.
-let alien_color = "green"; // this contain alien's color
+let alien_color: string = "green"; // this contain alien's color
 
 //Step 1: Write an if statement to test whether the alien’s 
 //color is green. If it is, print a message that the player 
@@ -216,7 +216,7 @@ if (alien_color == "green") {
 //If the person is at least 20 years old but less than 65, print a message that the person is an adult.
 //If the person is age 65 or older, print a message that the person is an elder.
 
-let age = 19;
+let age: number = 19;
 
 if (age < 2) {
   console.log("The person is a baby"); // if the person's age is less than 2, this statement will be printed
@@ -248,7 +248,7 @@ else {
 //of fruit is in your array. If the fruit is in your array, the if block 
 //should print a statement, such as You really like bananas!
 
-let favorite_fruits = [
+let favorite_fruits: string[] = [
     "Strawberries",
     "Pomegranate",
     "Watermelon"
@@ -280,7 +280,7 @@ if(favorite_fruits.includes("Oranges")){
 //If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
 //Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 
-let usernames = [
+let usernames: string[] = [
     "Admin", 
     "Alishbah", 
     "Shazia", 
